@@ -3,39 +3,6 @@
 #include <string>
 using namespace std;
 
-// int main() {
-//     int n; cin >> n;
-//     while (n > 10000) {
-//         cout << "Nhập n <= 10000: ";
-//         cin >> n;
-//     }
-//     map<int,int> mp;
-//     for (int i = 0; i < n; i++) {
-//         int x; cin >> x;
-//         mp[x]++;
-//         if (mp[x] >= 2) {
-//             cout << "Yes" << endl;
-//             return 0;
-//         }
-//     }
-//     cout << "No" << endl;
-//     return 0;
-// }
-
-// int main() {
-//     string s; cin >> s;
-//     while (s.length() > 100) {
-//         cout << "Nhập xâu s có độ dài <= 100: "; cin >> s;
-//     }
-//     string a = s;
-//     reverse(a.begin(), a.end());
-//     if (a == s) cout << "Yes" << endl;
-//     else cout << "No" << endl;
-//     return 0;
-
-// }
-
-
 int main(){
     int n; cin >> n;
     int a[n][n];
